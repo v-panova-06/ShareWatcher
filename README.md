@@ -41,7 +41,9 @@ config.json        Конфигурация (отредактировать пе
 
 ```powershell
 # 1. Разрешить запуск скриптов (один раз, от администратора)
-Set-ExecutionPolicy RemoteSigned либо powershell -ExecutionPolicy Bypass -file .\ShareWatcher.ps1
+Set-ExecutionPolicy RemoteSigned
+# либо
+powershell -ExecutionPolicy Bypass -file .\ShareWatcher.ps1
 
 # 2. Указать путь к шаре в config.json, затем запустить полную проверку
 .\ShareWatcher.ps1 -Scan
