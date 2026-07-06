@@ -1,0 +1,22 @@
+{
+    "SharePath": "\\\\SERVER\\Share",
+    "MaxPathLength": 256,
+    "WarnAtRemaining": 30,
+    "StaleFileDays": 180,
+    "ArchiveFolderName": "_Archive",
+    "AutoArchive": false,
+    "LogDirectory": "C:\\ShareWatcher\\Logs",
+    "WarningFileName": "!PATH_LENGTH_WARNING.txt",
+    "MaxWarningFiles": 500,
+    "ADSearchBase": "",
+    "ExcludeFolders": [
+        "System Volume Information",
+        "$RECYCLE.BIN"
+    ],
+    "IgnoreGroups": [
+        "Domain Admins",
+        "Enterprise Admins",
+        "Schema Admins",
+        "Backup Operators"
+    ]
+}
